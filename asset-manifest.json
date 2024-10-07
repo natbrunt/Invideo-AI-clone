@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Frontend-ai-web-rebuild/static/css/main.d694b4f7.css",
+    "main.js": "/Frontend-ai-web-rebuild/static/js/main.2177d70a.js",
+    "static/js/453.7c2738f0.chunk.js": "/Frontend-ai-web-rebuild/static/js/453.7c2738f0.chunk.js",
+    "static/media/Saigon.mp4": "/Frontend-ai-web-rebuild/static/media/Saigon.c76867ccff3a578f1482.mp4",
+    "static/media/edits.mp4": "/Frontend-ai-web-rebuild/static/media/edits.2c3142d0d9d542819237.mp4",
+    "static/media/security.png": "/Frontend-ai-web-rebuild/static/media/security.5ad4a0112ba3ddd7841e.png",
+    "index.html": "/Frontend-ai-web-rebuild/index.html",
+    "static/media/info.svg": "/Frontend-ai-web-rebuild/static/media/info.1d7ceb93a8d47ba3a63d761319d13150.svg",
+    "static/media/fish.svg": "/Frontend-ai-web-rebuild/static/media/fish.e0f3800ac8ab41ca93236783a0d672db.svg",
+    "static/media/arrow-drop.svg": "/Frontend-ai-web-rebuild/static/media/arrow-drop.39b5c6703f86cb660579592395e5bc30.svg",
+    "main.d694b4f7.css.map": "/Frontend-ai-web-rebuild/static/css/main.d694b4f7.css.map",
+    "main.2177d70a.js.map": "/Frontend-ai-web-rebuild/static/js/main.2177d70a.js.map",
+    "453.7c2738f0.chunk.js.map": "/Frontend-ai-web-rebuild/static/js/453.7c2738f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d694b4f7.css",
+    "static/js/main.2177d70a.js"
+  ]
+}
