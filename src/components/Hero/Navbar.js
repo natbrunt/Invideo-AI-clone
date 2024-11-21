@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../../media/svg/fish.svg'
 import Arrow from '../../media/svg/arrow-drop.svg'
 
-import Ad from '../header/Ad.js'
+import Ad from './Ad.js'
 
 function Navbar(){
 return(

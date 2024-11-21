@@ -1,6 +1,6 @@
-import Navbar from './header/Navbar.js'
-import Statement from './header/Statement.js'
-import Reviews from './header/Reviews.js'
+import Navbar from './Navbar.js'
+import Statement from './Statement.js'
+import Reviews from './Reviews.js'
 
 function Header() {
   return (
