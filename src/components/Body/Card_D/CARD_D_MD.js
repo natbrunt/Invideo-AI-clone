@@ -102,13 +102,13 @@ function Card_D_3(){
                         <p className='
                         xl:grow xl:w-[16rem] lg:grow lg:w-[42rem] md:w-[21rem]'>
                         <span className='pr-1'>✔</span> 200 mins/mo of AI generation</p>
-                        <img className='md:inline hidden' src={info}></img>
+                        <img className='md:inline hidden' src={info} alt="tailwind"></img>
                     </div>
                     
                     {/* inline element with info icon */}
                     <div className='flex flex-row items-center justify-between'>
                         <p><span className='pr-1'>✔</span> 320/mo iStock</p>
-                        <img className='md:inline hidden' src={info}></img>
+                        <img className='md:inline hidden' src={info} alt="tailwind"></img>
                     </div>
 
                     {/* normal list item without info */}
@@ -116,7 +116,7 @@ function Card_D_3(){
 
                     <div className='flex flex-row items-center justify-between'>
                         <p><span className='pr-1'>✔</span> Unlimited exports</p>
-                        <img className='md:inline hidden' src={info}></img>
+                        <img className='md:inline hidden' src={info} alt="tailwind"></img>
                     </div>
 
                     

@@ -1,6 +1,6 @@
- import Card_A from './Card_A.js'
- import Card_B from './Card_B.js'
- import Card_D from './Card_D.js'
+ import CARD_A from './CARD_A.js'
+ import CARD_B from './CARD_B.js'
+ import CARD_D from './CARD_D.js'
 //  import Card_E from './Body/Card_E.js'
 //  import Card_F from './Body/Card_F.js'
 // import Card_X from './Body/Card_X'
@@ -11,11 +11,11 @@ function Body(){
         <div id="wrapper"
         className=''
         >
-                 <Card_A 
+                 <CARD_A 
                  className=''/>
-                 <Card_B 
+                 <CARD_B 
                  className=''/>
-                 <Card_D 
+                 <CARD_D 
                  className=''/>
 
            </div>

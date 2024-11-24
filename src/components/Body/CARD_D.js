@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Card_D_Free from'./Card_D/Card_D_Free.js'
-import Card_D_Plus from'./Card_D/Card_D_Plus.js'
-import Card_D_Max from'./Card_D/Card_D_Max.js'
+import CARD_D_FREE from'./Card_D/CARD_D_FREE.js'
+import CARD_D_PLU from'./Card_D/CARD_D_LG.js'
+import CARD_D_MA from'./Card_D/CARD_D_MD.js'
 
 function Card_D(){
 
@@ -30,9 +30,9 @@ className="space-y-6 flex flex-col items-center mt-20">
     md:mx-0 mx-8 space-y-[2.4rem]'
 >
 
-    <Card_D_Free />
-    <Card_D_Plus />
-    <Card_D_Max />
+    <CARD_D_FREE />
+    <CARD_D_PLU />
+    <CARD_D_MA />
     
     
 </div>

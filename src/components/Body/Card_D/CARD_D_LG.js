@@ -1,7 +1,7 @@
 import React from 'react'
 import info from './../../../media/svg/info.svg'
 
-function Card_D_Free(){
+function Card_D_Plus(){
     return(
         <section id='Pop up price wrapper'
         className="
@@ -34,7 +34,7 @@ function Card_D_Free(){
                             md:pb-0
                             pb-[4.5rem]
                             '>
-                            Free
+                            Plus
                         </h1>
                         {/* description */}
                         <p className='
@@ -45,7 +45,7 @@ function Card_D_Free(){
                         absolute top-9
                         md:top-0
                         '>
-                        For anyone who wishes to try AI video creation</p>
+                        For creators starting their journey</p>
                     </div>
 
                     <div id='empty space'
@@ -57,7 +57,7 @@ function Card_D_Free(){
                             className='
                             font-bold 
                             md:text-5xl text-3xl'>
-                            $0 
+                            $20 
                             <span 
                             className='
                             text-lg 
@@ -78,7 +78,7 @@ function Card_D_Free(){
                 text-white bg-black font-bold 
                 mt-28 mb-14
                 ">
-                Try for free
+                Get Plus
                 </button>
                 
 
@@ -97,23 +97,33 @@ function Card_D_Free(){
                     py-2 space-y-3 pb-5
                     text-gray-500 font-bold
                     '>
+                    
+                    {/* inline element that controls width of container*/}
                     <div className='flex flex-row items-center justify-between'>
-                        <p className='xl:grow xl:w-[16rem] lg:grow lg:w-[42rem] md:w-[21rem]'><span className='pr-1'>✔</span> 10 mins/wk of AI generation</p>
-                        <img className='md:inline hidden' src={info}></img>
+                        <p className='
+                        xl:grow xl:w-[16rem] lg:grow lg:w-[42rem] md:w-[21rem]'>
+                        <span className='pr-1'>✔</span> 50 mins/mo of AI generation</p>
+                        <img className='md:inline hidden' src={info} alt="tailwind"></img>
                     </div>
                     
-                    <p><span className='pr-2 font-normal opacity-50'>X</span> iStock</p>
+                    {/* inline element with info icon */}
+                    <div className='flex flex-row items-center justify-between'>
+                        <p><span className='pr-1'>✔</span> 80/mo iStock</p>
+                        <img className='md:inline hidden' src={info} alt="tailwind"></img>
+                    </div>
+
+                    {/* normal list item without info */}
+                    <p><span className='pr-1'>✔</span> 100 GB storage</p>
+
+                    <div className='flex flex-row items-center justify-between'>
+                        <p><span className='pr-1'>✔</span> Unlimited exports</p>
+                        <img className='md:inline hidden' src={info} alt="tailwind"></img>
+                    </div>
+
                     
-                    <p><span className='pr-1'>✔</span> 10 GB storage</p>
-                    <div className='flex flex-row items-center justify-between'>
-                    <p><span className='pr-1'>✔</span> 4 exports/wk with a logo</p>
-                    <img className='md:inline hidden' src={info}></img>
-                    </div>
-                    <div className='flex flex-row items-center justify-between'>
-                    <p><span className='pr-1'>✔</span> 2.5M+ standard media</p>
-                    <img className='md:inline hidden' src={info}></img>
-                    </div>
-                    <p><span className='pr-2 font-normal opacity-50'>X</span> voice clones</p>
+                    <p><span className='pr-1'>✔</span> 2 voice clones</p>
+                        
+                    <p><span className='pr-1'>✔</span> Upto 1 user</p>
 
                 </div>
 
@@ -137,4 +147,4 @@ function Card_D_Free(){
     )
 }
 
-export default Card_D_Free
+export default Card_D_Plus
