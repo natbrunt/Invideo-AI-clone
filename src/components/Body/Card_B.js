@@ -151,7 +151,7 @@ className="space-y-6 flex flex-col items-center mt-20">
     <source src={Edits} type="video/mp4"/>
   </video>
 
-  <div class="
+  <div className="
     absolute top-0 left-0 right-0 bottom-0 
     flex flex-col justify-between font-bold
     py-5 px-6">
@@ -225,7 +225,7 @@ className="space-y-6 flex flex-col items-center mt-20">
             rounded-2xl object-contain'/>
 
 
-        <div class="
+        <div className="
             absolute top-0 left-0 right-0 bottom-0 
             flex flex-col justify-between font-bold
             py-5 px-6">
@@ -272,7 +272,7 @@ className="space-y-6 flex flex-col items-center mt-20">
         <source src={Saigon} type="video/mp4"/>
     </video>
 
-    <div class="
+    <div className="
         absolute top-0 left-0 right-0 bottom-0 
         flex flex-col justify-between font-bold
         py-5 px-6">
