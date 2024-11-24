@@ -27,17 +27,17 @@ return(
 
             <div className='flex flex-row items-center'>
                 <h1 className=' text-pink-500'>video ai</h1>
-                <img className='h-6 w-6' src={Arrow}/>
+                <img className='h-6 w-6' src={Arrow} alt="tailwind"/>
             </div>
 
             <div className='flex flex-row items-center'>
                 <h1>video studio</h1>
-                <img className='h-6 w-6' src={Arrow}/>
+                <img className='h-6 w-6' src={Arrow} alt="tailwind"/>
             </div>
 
             <div className='flex flex-row items-center'>
                 <h1>Help</h1>
-                <img className='h-6 w-6' src={Arrow}/>
+                <img className='h-6 w-6' src={Arrow} alt="tailwind"/>
             </div>
 
 
