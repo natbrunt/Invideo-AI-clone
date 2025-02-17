@@ -3,7 +3,6 @@
 2) `npm i` // inside repo dir
 3) `npm start`
 
-## References
+### Sources
 1) `invideo.io`
 2) `pixabay.com`
-3) 
