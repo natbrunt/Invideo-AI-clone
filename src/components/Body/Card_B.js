@@ -57,7 +57,7 @@ className="space-y-6 flex flex-col items-center mt-20">
             lg:max-h-[450px]
             lg:max-w-[450px]
             xl:max-h-[575px]
-            xl:max-w-[650px]
+            xl:max-w-[550px]
             grow w-[650px]
             rounded-2xl object-contain'/>
 
@@ -101,7 +101,7 @@ className="space-y-6 flex flex-col items-center mt-20">
         lg:max-h-[450px]
         lg:max-w-[450px]
         xl:max-h-[575px]
-        xl:max-w-[650px]
+        xl:max-w-[550px]
         grow h-[575px]
         w-[650px]
         rounded-3xl object-cover
@@ -145,7 +145,7 @@ className="space-y-6 flex flex-col items-center mt-20">
   <video autoPlay muted loop
     className='
     lg:max-h-[600px]
-    grow w-[1350px]
+    grow w-[1150px]
     rounded-3xl object-fill
     aspect-auto'>
     <source src={Edits} type="video/mp4"/>
@@ -220,8 +220,8 @@ className="space-y-6 flex flex-col items-center mt-20">
             lg:max-h-[450px]
             lg:max-w-[450px]
             xl:max-h-[575px]
-            xl:max-w-[650px]
-            grow w-[650px]
+            xl:max-w-[550px]
+            grow w-[550px]
             rounded-2xl object-contain'/>
 
 
@@ -263,10 +263,10 @@ className="space-y-6 flex flex-col items-center mt-20">
         md:max-w-[350px]
         lg:max-h-[450px]
         lg:max-w-[450px]
-        xl:max-h-[575px]
-        xl:max-w-[650px]
-        grow h-[575px]
-        w-[650px]
+        xl:max-h-[555px]
+        xl:max-w-[550px]
+        grow h-[550px]
+        w-[550px]
         rounded-3xl object-cover
         '>
         <source src={Saigon} type="video/mp4"/>
